@@ -1,2 +1,2 @@
-# Task2
-Task2-RL
+# Task2-MineRL to collect Diamonds in Mine Craft
+
