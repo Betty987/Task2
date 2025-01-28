@@ -2,11 +2,7 @@
 
 ## Overview
 
-This project aims to train a machine learning agent to play Minecraft and obtain a diamond  using advanced reinforcement learning techniques. The project leverages the MineRL dataset, which consists of human gameplay demonstrations, to aid in training the agent.
-
-## Problem Statement
-
-The goal is to develop an AI agent that can effectively navigate the expansive Minecraft environment, gathering necessary resources leading up to the acquisition of a diamond. 
+This project aims to train a machine learning agent to play Minecraft and obtain a diamond  using advanced reinforcement learning techniques.The goal is to develop an AI agent that can effectively navigate the expansive Minecraft environment, gathering necessary resources leading up to the acquisition of a diamond.  The project leverages the MineRL dataset, which consists of human gameplay demonstrations, to aid in training the agent.
 
 ## Algorithms and Methods
 
@@ -28,6 +24,6 @@ We selected specific hyperparameters such as a learning rate of 0.0001 and used 
 
 ## Dataset
 
-We utilized the **MineRL** dataset, which contains over 60 million state-action pairs captured from human gameplay. This dataset serves as a foundational resource for training our models and improving learning outcomes.
+The **MineRL** dataset, which contains over 60 million state-action pairs captured from human gameplay. This dataset serves as a foundational resource for training the models and improving learning outcomes.
 
 
