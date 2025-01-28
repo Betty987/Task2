@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
+
 import torch
 import torch.nn as nn
 import torchvision.models as md
 
-# print(resnet)
 
 class Resnet_1(nn.Module):
   def __init__(self, action_space, input_shape, features):
