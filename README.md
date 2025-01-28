@@ -1,4 +1,4 @@
-# MineRL Diamond Obtaining Agent
+# 💎 MineRL Diamond Obtaining Agent
 
 ## Overview
 
