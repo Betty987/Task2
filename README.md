@@ -7,10 +7,10 @@ This project aims to train a machine learning agent to play Minecraft and obtain
 ## Algorithms and Methods
 
 ### 1. K-Means Clustering
-K-Means clustering for discretizing the action space. This technique allows to simplify the extensive action space found in Minecraft by creating a manageable set of actions through clustering human gameplay data.
+K-Means clustering is used for discretizing the action space. This technique allows to simplify the extensive action space found in Minecraft by creating a manageable set of actions through clustering human gameplay data.
 
 ### 2. ResNet-18 Model
-We employed a modified ResNet-18 architecture for behavioral cloning. The architecture consists of convolutional layers that preprocess input frames, enabling the model to learn and predict actions based on human gameplay examples.
+A modified ResNet-18 architecture is employed for behavioral cloning. The architecture consists of convolutional layers that preprocess input frames, enabling the model to learn and predict actions based on human gameplay examples.
 
 ### 3. Dueling DQN (Deep Q-Network)
 The project integrates Dueling DQN for reinforcement learning. This architecture helps enhance the learning efficiency by separating the state value and advantage of actions, improving the agent's learning capabilities in complex environments.
@@ -19,7 +19,7 @@ The project integrates Dueling DQN for reinforcement learning. This architecture
 A customized form of imitation learning was employed to allow the agent to learn from human demonstrations. This approach utilized the Dueling DQN framework and innovated the experience sampling and reward assignment to make the learning process more effective.
 
 ### 5. Hyperparameter Optimization
-We selected specific hyperparameters such as a learning rate of 0.0001 and used the Adam optimizer to refine the model's performance. Hyperparameters were adjusted based on intuitive experimentation, considering the compute time available for training.
+Specific hyperparameters such as a learning rate of 0.0001 and Adam optimizer was used to refine the model's performance. 
 
 
 ## Dataset
